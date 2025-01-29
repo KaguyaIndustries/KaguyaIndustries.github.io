@@ -1,0 +1,43 @@
+.cherry-bomb-one-regular {
+    font-family: "Cherry Bomb One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.center {
+    text-align: center;
+}
+
+.links-container {
+    background: red;
+    display: grid;
+    justify-content: center;
+}
+
+.links-encasing {
+    background: blue;
+    border: 10px green solid;
+}
+
+.links {
+    background: blueviolet;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.title {
+    background: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+body {
+    background: #ffa1c3;
+}
+
