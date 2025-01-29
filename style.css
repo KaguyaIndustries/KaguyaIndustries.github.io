@@ -19,6 +19,13 @@
     font-size: 350%;
 }
 
+.shake:hover, a:hover {
+    top: 0px;
+    position: relative;
+    animation: alternate shake 200ms;
+    animation-iteration-count: infinite;
+}
+
 .links-encasing {
 
 }
@@ -49,3 +56,9 @@ body {
     background: #ffa1c3;
 }
 
+@keyframes shake {
+    0% {transform: rotate(0)}
+    25% {transform: rotate(2deg)}
+    50% {transform: rotate(0)}
+    75% {transform: rotate(-2deg)}
+}
